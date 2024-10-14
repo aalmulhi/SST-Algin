@@ -11,5 +11,5 @@ To run the `Graphlet_imap.py` and `SST-align.py` scripts, you need to provide se
 #### Usage
 
 ```bash
-python Graphlet_imap.py <graph1> <graph2> <features1> <features2> <actual_map> <p>
+python Graphlet_imap.py data/graph1.txt data/graph2.txt data/features1.csv data/features2.csv mappings/actual_map.txt 100
 python SST-align.py data/graph1.txt data/graph2.txt data/features1.csv data/features2.csv mappings/init_map.txt mappings/actual_map.txt 0.001 100 64 128 5
