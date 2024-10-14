@@ -7,6 +7,9 @@ This repository contains the implementation of **Topological Network Alignment u
 To run the `Graphlet_imap.py` and `SST-align.py` scripts, you need to provide several arguments, including graph files, feature files, and an actual map for the evaluation.
 
 ### 1. Run `Graphlet_imap.py`
+```bash
+python Graphlet_imap.py data/graph1.txt data/graph2.txt data/features1.csv data/features2.csv mappings/actual_map.txt 100
+
 ### 2. Run `SST-align.py`
 #### Usage
 
