@@ -4,9 +4,10 @@ This repository contains the implementation of **Topological Network Alignment u
 
 ## How to Run the Code
 
-To execute the `SST-align.py` script, several arguments must be provided, including input mapping files and various hyperparameters for the network alignment process.
+To execute the `SST-align.py` script, several arguments must be provided, including input graph files, feature files, and various hyperparameters for the alignment process.
 
 ### Usage
 
 ```bash
-python SST-align.py <init_map> <actual_map> <learning_rate> <each_number> <batch_size>
+python SST-align.py <graph1> <graph2> <features1> <features2> <init_map> <actual_map> <learning_rate> <each_number> <batch_size> <dimension> <topk>
+
